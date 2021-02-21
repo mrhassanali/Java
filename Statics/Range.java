@@ -1,5 +1,5 @@
 import java.util.*;
-class Statics{
+class Range{
 	public static void main(String [] args){
 		Scanner input = new Scanner(System.in);
 
