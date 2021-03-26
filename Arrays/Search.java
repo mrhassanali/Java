@@ -16,6 +16,7 @@ class Search{
 			System.out.println("Search Value in the Array");
 			int item = input.nextInt();
 
+			/*Method No 1*/
 			i=0;
 			while(i<size && x[i]!= item){
 				i++;
@@ -25,5 +26,11 @@ class Search{
 					}else{
 						System.out.println("Item not Found");
 						}
+				/*Method No 2*/
+			for(i=0; i<size; i++){
+				if(x[i]==item){
+					System.out.println("Item Search on Index = "+i);
+					}
+				}
 		}
 	}
