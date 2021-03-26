@@ -8,14 +8,14 @@ class ArrayReverse{
 		int i;
 		System.out.println("Input the Array of a size is "+size);
 		for(i=0; i<=size-1; i++){
-			System.out.print("x["+i+"] =");
+			System.out.print("x["+i+"] = ");
 			int a  = input.nextInt();
 			x[i] = a;
 			}
 			System.out.println("\n");
 			System.out.println("Array Reverse");
 			for(i=size-1; i>=0; i--){
-			System.out.println("x["+i+"] ="+x[i]);
+				System.out.print("x["+i+"] = "+x[i]+"\n");
 			}
 		}
 	}
